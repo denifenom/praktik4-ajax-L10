@@ -13,6 +13,6 @@ class DataSampleSeeder extends Seeder
     public function run(): void
     {
         //
-        \App\Models\DataSample::factory(5)->create();
+        \App\Models\DataSample::factory(1000000)->create();
     }
 }
