@@ -5,22 +5,11 @@ namespace Database\Factories;
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Illuminate\Support\Str;
 use App\Models\DataSample;
-
 /**
- * @extends \Illuminate\Database\Eloquent\Factories\Factory<\App\Models\User>
+ * @extends \Illuminate\Database\Eloquent\Factories\Factory<\App\Models\DataSample>
  */
 class DataSampleFactory extends Factory
 {
-    /**
-
-     * The name of the factory's corresponding model.
-
-     *
-
-     * @var string
-
-     */
-
     protected $model = DataSample::class;
 
     /**
@@ -38,5 +27,4 @@ class DataSampleFactory extends Factory
             'email' => fake()->unique()->safeEmail(),
         ];
     }
-
 }

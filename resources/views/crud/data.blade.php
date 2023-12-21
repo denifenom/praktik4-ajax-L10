@@ -10,20 +10,21 @@
     <title>Gentelella Alela! | </title>
     <meta name="csrf-token" content="{{ csrf_token() }}" />
 
-    <!-- Bootstrap -->
-    <link href="{{ asset('/storage/vendors/bootstrap/dist/css/bootstrap.min.css') }}" rel="stylesheet">
-    <!-- Font Awesome -->
-    <link href="{{ asset('/storage/vendors/font-awesome/css/font-awesome.min.css') }}" rel="stylesheet">
-    <!-- NProgress -->
-    <link href="{{ asset('/storage/vendors/nprogress/nprogress.css') }}" rel="stylesheet">
-    <!-- iCheck -->
-   <link href="{{ asset('/storage/vendors/iCheck/skins/flat/green.css') }}" rel="stylesheet">
-
-    <!-- Custom Theme Style -->
-    <link href="{{ asset('/storage/build/css/custom.min.css') }}" rel="stylesheet">
-
-    <link href="https://cdn.datatables.net/1.10.16/css/jquery.dataTables.min.css" rel="stylesheet">
+            <!-- Bootstrap -->
+            <link href="{{ url('/') }}/vendors/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+            <!-- Font Awesome -->
+            <link href="{{ url('/') }}/vendors/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+            <!-- NProgress -->
+            <link href="{{ url('/') }}/vendors/nprogress/nprogress.css" rel="stylesheet">
+            <!-- iCheck -->
+           <link href="{{ url('/') }}/vendors/iCheck/skins/flat/green.css" rel="stylesheet">
+        
+            <!-- Custom Theme Style -->
+            <link href="{{ url('/') }}/build/css/custom.min.css" rel="stylesheet">
+        
+            <link href="https://cdn.datatables.net/1.10.16/css/jquery.dataTables.min.css" rel="stylesheet">
     
+            
   </head>
 
   <body class="nav-md">

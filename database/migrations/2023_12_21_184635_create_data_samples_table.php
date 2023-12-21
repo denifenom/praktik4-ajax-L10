@@ -12,10 +12,12 @@ return new class extends Migration
     public function up(): void
     {
         Schema::create('data_samples', function (Blueprint $table) {
+            $table->increments('id');
             $table->string('nama');
             $table->string('nomor');
             $table->string('alamat');
             $table->string('telp');
+            $table->string('email');
         });
     }
 
