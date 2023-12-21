@@ -11,16 +11,16 @@
     <meta name="csrf-token" content="{{ csrf_token() }}" />
 
     <!-- Bootstrap -->
-    <link href="{{ asset('/storage/vendors/bootstrap/dist/css/bootstrap.min.css') }}" rel="stylesheet">
+    <link href="{{ url('/') }}/vendors/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
     <!-- Font Awesome -->
-    <link href="{{ asset('/storage/vendors/font-awesome/css/font-awesome.min.css') }}" rel="stylesheet">
+    <link href="{{ url('/') }}/vendors/font-awesome/css/font-awesome.min.css" rel="stylesheet">
     <!-- NProgress -->
-    <link href="{{ asset('/storage/vendors/nprogress/nprogress.css') }}" rel="stylesheet">
+    <link href="{{ url('/') }}/vendors/nprogress/nprogress.css" rel="stylesheet">
     <!-- iCheck -->
-   <link href="{{ asset('/storage/vendors/iCheck/skins/flat/green.css') }}" rel="stylesheet">
+   <link href="{{ url('/') }}/vendors/iCheck/skins/flat/green.css" rel="stylesheet">
 
     <!-- Custom Theme Style -->
-    <link href="{{ asset('/storage/build/css/custom.min.css') }}" rel="stylesheet">
+    <link href="{{ url('/') }}/build/css/custom.min.css" rel="stylesheet">
 
     <link href="https://cdn.datatables.net/1.10.16/css/jquery.dataTables.min.css" rel="stylesheet">
     
@@ -321,18 +321,18 @@
     </div>
 
     <!-- jQuery -->
-    <script src="{{ asset('/storage/vendors/jquery/dist/jquery.min.js') }}"></script>
+    <script src="{{ url('/') }}/vendors/jquery/dist/jquery.min.js"></script>
     <!-- Bootstrap -->
-   <script src="{{ asset('/storage/vendors/bootstrap/dist/js/bootstrap.bundle.min.js') }}"></script>
+   <script src="{{ url('/') }}/vendors/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <!-- FastClick -->
-    <script src="{{ asset('/storage/vendors/fastclick/lib/fastclick.js') }}"></script>
+    <script src="{{ url('/') }}/vendors/fastclick/lib/fastclick.js"></script>
     <!-- NProgress -->
-    <script src="{{ asset('/storage/vendors/nprogress/nprogress.js') }}"></script>
+    <script src="{{ url('/') }}/vendors/nprogress/nprogress.js"></script>
     <!-- iCheck -->
-    <script src="{{ asset('/storage/vendors/iCheck/icheck.min.js') }}"></script>
+    <script src="{{ url('/') }}/vendors/iCheck/icheck.min.js"></script>
 
     <!-- Custom Theme Scripts -->
-    <script src="{{ asset('/storage/build/js/custom.min.js') }}"></script>
+    <script src="{{ url('/') }}/build/js/custom.min.js"></script>
 
 
     <script src="https://cdn.datatables.net/1.10.16/js/jquery.dataTables.min.js"></script>
