@@ -20,7 +20,7 @@
            <link href="{{ url('/') }}/vendors/iCheck/skins/flat/green.css" rel="stylesheet">
         
             <!-- Custom Theme Style -->
-            <link href="{{ url('/') }}/build/css/custom.min.css" rel="stylesheet">
+            <link href="{{ url('/') }}/build_assets/css/custom.min.css" rel="stylesheet">
         
             <link href="https://cdn.datatables.net/1.10.16/css/jquery.dataTables.min.css" rel="stylesheet">
             <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
